@@ -14,4 +14,7 @@ permission= $4
 chmod $4  $1
 chown $2:$3 $1
 
+echo "Permission: $permission User: $user Group : $group File : $file"
+echo "Ad: $ad soyad : $soyad Numara: $numara"
+
 #./script.sh test.txt zeynep sudo 744
